@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a87fd51504.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="Logo.png" alt="" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Full Strack Devloper</p>
+                <h1>Hi, I'm <span>Gayatri Darekar</span><br> From Pune</h1>
+            </div>
+        </div>
+    </div>
+    <!-- About -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="my img.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p class="para">I'm a full-stack developer with a passion for building intuitive, efficient, and
+                        user-friendly
+                        web applications. I enjoy working across the stack—from crafting responsive, engaging front-end
+                        interfaces to developing robust and scalable backend systems. My approach combines creativity
+                        with problem-solving, and I thrive on transforming complex challenges into clean, maintainable
+                        solutions.<br>
+                        I'm constantly learning and exploring new technologies to stay up-to-date with the ever-evolving
+                        world of web development. Whether it's improving performance, refining user experience, or
+                        diving into a new framework, I love the process of growing as a developer. Collaboration, clean
+                        code, and thoughtful design are at the core of how I work—and I'm always excited to take on new
+                        projects that push me to learn and grow. </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                        <!-- <p class="tab-links">Computer Skills</p> -->
+                    </div>
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>Web Development</span><br>Web app Devlopment</li>
+                            <li><span>App Development</span><br>Building Apps</li>
+                            <li><span>Front-End Development</span><br>Responsive Web Design</li>
+                            <li><span>Back-End Development</span><br>RESTful APIs(understanding & implementation)</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>2022-2025</span><br>BSC from Pathare Collage (Final Year Student)</li>
+                            <li><span>2020-2021</span><br>HSC from Dhole Patil Collage</li>
+                            <li><span>2018-2019</span><br>SSC from Sundarbai Marathe Vidyalaya</li>
+                        </ul>
+                    </div>
+                    <!-- <div class="tab-contents">
+                            <ul>
+                                <li><span>Web Development</span><br>Web app Devlopment</li>
+                                <li><span>App Development</span><br>Building Apps</li>
+                                <li><span>Front-End Development</span><br>Responsive Web Design</li>
+                                <li><span>Back-End Development</span><br>RESTful APIs(understanding & implementation)</li>
+                            </ul>
+                        </div> -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- services -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p class="para">As a passionate web designer, I offer a comprehensive range of services aimed at
+                        creating
+                        visually stunning and highly functional websites that elevate your brand and engage your
+                        audience. My expertise lies in crafting custom designs tailored to your unique vision, ensuring
+                        that every element reflects your brand identity and resonates with your target audience. I
+                        specialize in responsive design, ensuring that your website looks and performs flawlessly across
+                        all devices, from desktops to smartphones. Utilizing the latest design trends and technologies,
+                        I focus on creating intuitive user experiences that guide visitors seamlessly through your site.
+                        In addition to aesthetic design, I prioritize usability and accessibility, ensuring that every
+                        user can navigate your website with ease. My services also include UI/UX design, where I conduct
+                        thorough research and testing to optimize user interactions and enhance satisfaction.
+
+                        Whetheryou need a sleek portfolio site, an engaging e-commerce platform, or a dynamic blog, I am
+                        dedicated to delivering high-quality designs that not only meet your needs but also exceed your
+                        expectations. Collaborating closely with you throughout the design process, I ensure that your
+                        feedback is integrated at every stage, resulting in a final product that truly represents your
+                        vision. Let's work together to create a captivating online presence that stands out in today's
+                        digital landscape!</p>
+                    <a href="https://www.freecodecamp.org/learn/responsive-web-design/" target="_blank">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p class="para">As an app designer, I specialize in creating intuitive and engaging mobile
+                        applications that
+                        deliver exceptional user experiences. My focus is on crafting visually appealing user interfaces
+                        (UI) that are clean and easy to navigate, ensuring seamless interactions for users. I offer
+                        end-to-end app design services, from initial concept development to final design implementation,
+                        including wireframing and prototyping to visualize the app's flow.
+
+                        I conduct thorough research to understand your target audience and incorporate user feedback to
+                        refine designs. Whether you're developing a new mobile app or enhancing an existing one, I am
+                        dedicated to delivering designs that align with your vision and elevate your brand. By staying
+                        updated with the latest design trends and technologies, I ensure your app stands out in a
+                        competitive market. Let's collaborate to bring your app idea to life and create something truly
+                        remarkable!</p>
+                    <a href="https://www.udacity.com/course/mobile-app-development" target="_blank">Learn more</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- Portfolio -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="image (1).jpg" alt="">
+                    <div class="layer">
+                        <h3 class="h3">Quiz App</h3>
+                        <p class="para">The Quiz App is an interactive web application that allows users to test their
+                            knowledge
+                            through a series of quiz questions. Built using HTML, CSS, and JavaScript, this application
+                            features a user-friendly interface, a timer for each question, and a leaderboard to track
+                            high scores.</p>
+                        <a href="https://github.com/DarekarGayatri/Quiz"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image (2).jpg" alt="">
+                    <div class="layer">
+                        <h3 class="h3">Movie App</h3>
+                        <p class="para">The Movie Library App is a web application designed to help users manage and
+                            explore their
+                            movie collections. Built using HTML, CSS, and JavaScript, this application allows users to
+                            add, edit, delete, and search for movies, providing a comprehensive interface for movie
+                            enthusiasts to keep track of their favorite films.</p>
+                        <a href="https://github.com/DarekarGayatri/Movie-Library"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image (3).jpg" alt="">
+                    <div class="layer">
+                        <h3 class="h3">Weather App</h3>
+                        <p class="para">The Weather Dashboard is a web application that provides real-time weather
+                            information and a
+                            7-day forecast for any city entered by the user. Built using HTML, CSS, and JavaScript, this
+                            application utilizes the OpenWeatherMap API to fetch weather data, offering an interactive
+                            and visually appealing user experience.</p>
+                        <a href="https://github.com/DarekarGayatri/Weather-Dashboard"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="https://github.com/DarekarGayatri?tab=repositories" class="btn">See more</a>
+        </div>
+    </div>
+    <!-- contact -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>darekargayatri12@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>8329593366</p>
+                    <div class="social-icons">
+                        <a href="https://github.com/DarekarGayatri"><i class="fa-brands fa-github"></i></a>
+                        <a
+                            href="https://www.linkedin.com/in/gayatri-darekar-a1897135a?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bgz6TRfZ8QZWQG78k18wuCw%3D%3D"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="Gayatri CV.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxbUqotdIrBJugMBKPj7t7KmEN2bYb2lgcbw5fqK3vCMRNdVCrHPWe8QJmwiZs5jzoW2Q/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message sent successfully"
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 50000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+
+</html>
